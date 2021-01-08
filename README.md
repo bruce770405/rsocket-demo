@@ -11,7 +11,9 @@
    RSocket Client CLI : https://github.com/making/rsc
 
 open your macos Terminal , and keyin
+
     brew install making/tap/rsc
+
 now enjoy it.
     
 ## Why Select Kotlin , Not Java
