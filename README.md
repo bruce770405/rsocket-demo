@@ -8,6 +8,6 @@
 > *   Gradle
 > 
 
-## Why Select Kotlin
+## Why Select Kotlin , Not Java
 
 ## Why Use RSocket 
