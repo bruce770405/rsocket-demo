@@ -8,18 +8,18 @@
  *   Gradle
  
 ## Tool
-   Rsc cli https://github.com/making/rsc
+   RSocket Client CLI : https://github.com/making/rsc
 
-open your macos Terminal , and keyin
+> open your macos Terminal , and keyin
    
    brew install making/tap/rsc
 
-now enjoy it.
+>now enjoy it.
     
 ## Why Select Kotlin , Not Java
 
 ## Why Use RSocket 
 
     Easy start the springboot app.
-    you can use rsc client( term) test this app or another rsocket client app communicate.
+    you can use rsc client test this app or another rsocket client app communicate.
     go 
