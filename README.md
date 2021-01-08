@@ -19,6 +19,10 @@ now enjoy it.
 ## Why Select Kotlin , Not Java
 
 ## Why Use RSocket 
+advantage
+* Resource efficient
+* Secured/robust codes
+* Back pressure (inspired by TCP/UDP)
 
     Easy start the springboot app.
     you can use rsc client test this app or another rsocket client app communicate.
