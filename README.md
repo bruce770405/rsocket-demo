@@ -1,7 +1,9 @@
 # RSocketDemo
 
-# Project Technology
--- SpringBoot 2.4.1
--- Kotlin
--- OpenJDK 11
--- Gradle
+> ## Project Technology
+> 
+> 1.   SpringBoot 2.4.1
+> 2.   Kotlin
+> 3.   OpenJDK 11
+> 4.   Gradle
+> 
