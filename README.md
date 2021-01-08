@@ -1,13 +1,25 @@
 # RSocketDemo
 
 ## Project Technology
-> 
-> *   SpringBoot 2.4.1
-> *   Kotlin
-> *   OpenJDK 11
-> *   Gradle
-> 
+ 
+ *   SpringBoot 2.4.1
+ *   Kotlin
+ *   OpenJDK 11
+ *   Gradle
+ 
+## Tool
+   Rsc cli https://github.com/making/rsc
 
+open your macos Terminal , and keyin
+   
+   brew install making/tap/rsc
+
+now enjoy it.
+    
 ## Why Select Kotlin , Not Java
 
 ## Why Use RSocket 
+
+    Easy start the springboot app.
+    you can use rsc client( term) test this app or another rsocket client app communicate.
+    go 
