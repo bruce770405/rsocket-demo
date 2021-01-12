@@ -7,16 +7,16 @@ import org.springframework.stereotype.Controller
 import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono
 import tw.com.bruce.rsocket.messages.DemoMemberDto
-import tw.com.bruce.rsocket.messages.DemoMessage
+import tw.com.bruce.rsocket.messages.DemoMessageDto
 import tw.com.bruce.rsocket.service.DemoMemberService
 
 @Controller
-class DemoController(@Autowired var demoMemberService: DemoMemberService) {
+class DemoController(@Autowired val demoMemberService: DemoMemberService) {
     private val logger = LoggerFactory.getLogger(javaClass)
 
     @MessageMapping("request-response")
-    fun requestResponse(requestMessage: DemoMessage): Mono<DemoMessage> {
-        return Mono.defer { Mono.just(DemoMessage("hello , you said :" + requestMessage.getMessage())) }
+    fun requestResponse(requestMessageDto: DemoMessageDto): Mono<DemoMessageDto> {
+        return Mono.defer { Mono.just(DemoMessageDto("hello , you said :" + requestMessageDto.getMessage())) }
     }
 
     @MessageMapping("stream-get-all-members")
@@ -29,8 +29,9 @@ class DemoController(@Autowired var demoMemberService: DemoMemberService) {
         return fluxIds.flatMap { id: Long -> demoMemberService.getDemoMember(id) }
     }
 
-    @MessageMapping("fire-forget-log-client-health")
-    fun registerClientHealth(clientId: String) {
+    @MessageMapping("fire-forget-log-health")
+    fun registerClientHealth(clientId: String): Mono<Void> {
         logger.info(clientId)
+        return Mono.empty()
     }
 }

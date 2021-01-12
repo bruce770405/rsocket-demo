@@ -2,7 +2,7 @@ package tw.com.bruce.rsocket.messages
 
 import java.time.Instant
 
-class DemoMessage {
+class DemoMessageDto {
     private var message: String? = null
     private var created: Long = Instant.now().epochSecond
 
