@@ -29,3 +29,8 @@ now enjoy it.
     Easy start the springboot app.
     you can use rsc client test this app or another rsocket client app communicate.
     go 
+
+## Commands
+    rsc --debug --request --data "{\"message\":\"Hello\"}" --route request-response --stacktrace tcp://localhost:7000
+    rsc --debug --stream --route stream-get-all-members --stacktrace tcp://localhost:7000
+    rsc --debug --channel --data 2 --route channel-get-member-by-id --stacktrace tcp://localhost:7000
