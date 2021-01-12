@@ -17,7 +17,8 @@ open your macos Terminal , and keyin
 now enjoy it.
     
 ## Why Select Kotlin , Not Java
-
+ Kotlin has more useful and powerful api than Java.
+ 
 ## Why Use RSocket 
 
 ### Advantage
