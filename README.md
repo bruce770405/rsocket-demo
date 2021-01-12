@@ -34,3 +34,4 @@ now enjoy it.
     rsc --debug --request --data "{\"message\":\"Hello\"}" --route request-response --stacktrace tcp://localhost:7000
     rsc --debug --stream --route stream-get-all-members --stacktrace tcp://localhost:7000
     rsc --debug --channel --data 2 --route channel-get-member-by-id --stacktrace tcp://localhost:7000
+    rsc --debug --fnf --data "bruce-client" --route fire-forget-log-health --stacktrace tcp://localhost:7000
