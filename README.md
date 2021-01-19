@@ -28,6 +28,7 @@ now enjoy it.
 
 ## Frame Types
 |  Type  | Value  | Description |
+|  ----  | ----  | ---- |
 |  RESERVED | 0x00 |  Reserved  |  
 | SETUP  | 0x01 | Sent by client to initiate protocol processing. |
 | LEASE  | 0x02 | Lease: Sent by Responder to grant the ability to send requests. |
