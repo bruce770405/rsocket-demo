@@ -27,10 +27,11 @@ now enjoy it.
 * Back pressure (inspired by TCP/UDP)
 
 ## Frame Types
-Type	Value	Description
-RESERVED	0x00	Reserved
-SETUP	0x01	Setup: Sent by client to initiate protocol processing.
-LEASE	0x02	Lease: Sent by Responder to grant the ability to send requests.
+|  Type  | Value  | Description |
+|  RESERVED | 0x00 |  Reserved  |  
+| SETUP  | 0x01 | Sent by client to initiate protocol processing. |
+| LEASE  | 0x02 | Lease: Sent by Responder to grant the ability to send requests. |
+
 KEEPALIVE	0x03	Keepalive: Connection keepalive.
 REQUEST_RESPONSE	0x04	Request Response: Request single response.
 REQUEST_FNF	0x05	Fire And Forget: A single one-way message.
